@@ -15,7 +15,9 @@ if [ "x$1" = "x" ]; then
 fi
 
 # Supported platform versions.
-VERSIONS="181 182 183 191 192"
+
+#VERSIONS="181 182 183 191 192 193"
+VERSIONS="193"
 
 # Requested version to build.
 PLUGIN_VERSION=$1
